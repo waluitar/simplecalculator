@@ -13,6 +13,7 @@ public class Client {
     public static void main(String[] args) {
         // Wechsel der Strategie
         System.out.println("Testlauf des Taschenrechners");
+        System.out.println("Committest");
         waehle();
     }
 
