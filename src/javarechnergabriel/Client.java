@@ -32,7 +32,6 @@ public class Client {
 
         Rechner rechner = new Rechner();
         switch (sw) {
-
             case "+":
                 rechner.setzeRechenverhalten((new Addition()));
                 rechner.berechne(a, b);
