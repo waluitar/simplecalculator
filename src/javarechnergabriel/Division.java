@@ -15,7 +15,7 @@ public class Division implements Rechenverhalten {
     @Override
     public double berechne(double a, double b) {
         if (b == 0) {
-            System.out.println("Divison durch 0 nicht möglich");
+            System.out.println("Divison durch  nicht möglich");
             return -1;
         } else {
             return a / b;
